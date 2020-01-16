@@ -8,6 +8,8 @@ def pretty_print_nds(nds)
   pp nds
 end
 
+pretty_print_nds(directors_database)
+
 
 
 def flatten_a_o_a(aoa)
@@ -93,5 +95,3 @@ def studios_totals(nds)
   movies_with_director_names = flatten_a_o_a(a_o_a_movies_with_director_names)
   return gross_per_studio(movies_with_director_names)
 end
-
-pretty_print_nds(directors_database)
