@@ -35,9 +35,6 @@ def movie_with_director_name(director_name, movie_data)
   }
 end
 
-puts movie_with_director_name("Stephen Spielberg", directors_database)
-
-
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
