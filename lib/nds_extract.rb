@@ -95,4 +95,3 @@ def studios_totals(nds)
 end
 
 pretty_print_nds(directors_database)
-
