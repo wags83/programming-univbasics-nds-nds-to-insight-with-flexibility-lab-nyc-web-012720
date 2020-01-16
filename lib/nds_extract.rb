@@ -37,6 +37,7 @@ def movie_with_director_name(director_name, movie_data)
   }
 end
 
+pp movie_with_director_name(Stephen Spielberg, directors_database)
 
 # Your code after this point
 
