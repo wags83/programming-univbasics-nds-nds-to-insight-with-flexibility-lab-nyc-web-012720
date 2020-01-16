@@ -9,8 +9,6 @@ end
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
 
-pretty_print_nds(movie_with_director_name(Stephen Spielberg, directors_database))
-
 def flatten_a_o_a(aoa)
   result = []
   i = 0
@@ -36,6 +34,8 @@ def movie_with_director_name(director_name, movie_data)
     :director_name => director_name
   }
 end
+
+movie_with_director_name("Stephen Spielberg", directors_database)
 
 
 # Your code after this point
